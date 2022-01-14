@@ -1,0 +1,25 @@
+.btn-success:hover {
+    background-color: red;
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{box-shadow: 1px 1px 50px red;} 
+    to{box-shadow: 1px 1px 50px yellow;}
+}
+
+h3 {
+    animation-name: animation1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation1 {
+    from{background-color: steelblue; left: 0px; top: 0px;}
+    to{background-color: steelblue; left: 200px; top: 0px;}
+}
